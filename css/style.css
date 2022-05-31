@@ -6,17 +6,25 @@
 
 body{
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
- background: blanchedalmond;
+ background: gainsboro;
 }
 
 a{
   text-decoration: none;
 }
+
+p{
+  margin:0.75rem 0;
+}
+
+.text-primary{
+  color:gold;
+}
   
 /* code for the navbar*/
  #navbar{
-   background-color: aqua;
-  color: aliceblue;
+   background-color: gainsboro;
+  color: lightcyan;
  top: 0;
  position: sticky;
 display: flex;
@@ -33,7 +41,7 @@ ul{
 }
 
 #navbar ul li a{
-  color: rgb(253, 160, 0);
+  color: rgb(187, 218, 11);
   padding: 0.75rem;
   margin: 0 0.2rem;
 }
@@ -66,7 +74,7 @@ ul{
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5); 
+       background-color: rgba(0, 0, 0, 0.5);
 
     }
 
@@ -75,6 +83,14 @@ ul{
       margin-bottom: 0.75rem;
       line-height: 1.1;
 
+    }
+
+    
+    .l-leading{
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+      line-height: 1.1;
+      
     }
 
     .lead{
@@ -87,8 +103,8 @@ ul{
         text-align: center;
         margin: 0 auto;
         display: inline-block;
-        color: blue;
-        background:orange;
+        color: rgb(225, 141, 155);
+        background:rgb(239, 226, 204);
         padding: 0.5rem 2rem;
         width: 180px;
         border: none;
@@ -99,6 +115,36 @@ ul{
       .btn:hover{
          background: blue;
       }
+
+      .btn-dark {
+        background: rgb(193, 221, 238);
+        color: #fff;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 0 2rem;
+        overflow: hidden;
+      }
+
+      .text-center{
+        text-align: center;
+      }
+
+      .p-1{
+        padding: 1.5rem 0;
+      }
+       
+      .p-2{
+       padding: 2rem 0; 
+      }
+
+      .p-3{
+        padding:3rem 0;
+      }
+
+
     /* section:what we do */
     .items{
        display: flex;
@@ -113,8 +159,8 @@ padding: 1rem 50px;
 }
 
 #what .items .item i{
-  background: orange;
-  color: black;
+  background: rgb(225, 200, 154);
+  color: gray;
   padding: 1rem;
   border-radius: 50%;
 }
@@ -159,7 +205,7 @@ padding: 1rem 50px;
 }
 
 .list{
-  margin: 00.5rem;
+  margin: 0.5rem;
   list-style: none;
 }
 
@@ -176,10 +222,38 @@ padding: 1rem 50px;
   align-items: center;
   }
 
-  #clients.items img{
+  #clients .items img{
     display: block;
     margin: auto 15px;
     width: 90px;
     height: 90px;
 
   }
+
+  /* section contact */
+.bg-primary {
+background: #ffff;
+color: #000;
+}
+
+#contact {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact .contact-form-.form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+  #contact .contact-form textarea {
+    width:100%;
+    padding:0.5rem
+  }
+
+
+
