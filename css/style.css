@@ -104,7 +104,7 @@ ul{
         margin: 0 auto;
         display: inline-block;
         color: rgb(225, 141, 155);
-        background:rgb(239, 226, 204);
+        background:rgb(242, 207, 8);
         padding: 0.5rem 2rem;
         width: 180px;
         border: none;
@@ -159,8 +159,8 @@ padding: 1rem 50px;
 }
 
 #what .items .item i{
-  background: rgb(225, 200, 154);
-  color: gray;
+  background: rgba(225, 213, 154, 0.979);
+  color: rgb(167, 167, 11);
   padding: 1rem;
   border-radius: 50%;
 }
@@ -205,6 +205,7 @@ padding: 1rem 50px;
 }
 
 .list{
+  display: block;
   margin: 0.5rem;
   list-style: none;
 }
@@ -236,13 +237,13 @@ background: #ffff;
 color: #000;
 }
 
-#contact {
+#contact{
   width: 80%;
   margin: 0 auto;
 }
 
-#contact .contact-form-.form-group {
-  margin: 0.75rem;
+#contact .contact-form .form-group {
+  margin: 00.75rem;
 }
 
 #contact .contact-form label {
@@ -255,5 +256,6 @@ color: #000;
     padding:0.5rem
   }
 
+/*  */
 
 
